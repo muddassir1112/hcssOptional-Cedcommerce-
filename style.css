@@ -1,0 +1,115 @@
+.titleSection {
+  background-color: #f8f9dc;
+  font-family: "Roboto Slab", serif;
+}
+
+.header {
+  padding: 3em 0em 0em 7em;
+}
+
+.heroImg {
+  margin-bottom: -3em;
+  width: 30em;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main__left {
+  font-size: 45px;
+  font-weight: bolder;
+  margin-left: 2.2em;
+  margin-top: 1.5em;
+  text-shadow: 1px 6px 2px #d2d2d2;
+}
+
+.main__aside {
+  font-size: 28px;
+  margin-top: 0.5em;
+}
+
+.formSection {
+  text-align: center;
+  margin: 3em 0em 3em 0em;
+  font-family: "Roboto Slab", serif;
+}
+.formSection h1 {
+  margin-left: -35%;
+}
+.formSection table {
+  width: 50%;
+}
+.input {
+  border: none;
+  padding: 10px 10px;
+  width: 90%;
+}
+::placeholder {
+  color: rgb(69, 67, 67);
+  font-size: 15px;
+  font-weight: bold;
+}
+.loginBtn {
+  background-color: #5900bd;
+  box-shadow: 1px 6px 2px #d2d2d2;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  margin-top: 1em;
+  padding: 10px 75px;
+  width: 90%;
+}
+
+.forgot {
+  font-weight: bolder;
+  padding-top: 15px 0px 0px 10px;
+}
+
+.backBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  margin-top: 0.5em;
+}
+
+.main__right1 {
+  display: none;
+}
+.main__left1 {
+  display: none;
+}
+
+/* -------------------------------- */
+
+@media screen and (max-width: 560px) {
+  td {
+    display: block;
+    margin-top: 0.5em;
+  }
+  .header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .main__right1 {
+    display: block;
+    padding-top: 1em;
+  }
+  .main__left1 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-bottom: 1em;
+  }
+  .logoImg {
+    width: 5em;
+  }
+}
